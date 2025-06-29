@@ -4,6 +4,4 @@ module "frontend" {
   sg_name = "Frontend-Roboshop-dev"
   sg_description = "Frontend-Roboshop-dev"
   project_name = var.project
-
-
 }
