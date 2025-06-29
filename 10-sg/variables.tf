@@ -7,6 +7,3 @@ variable "sg_description" {
 variable "sg_name" {
   default = "Frontend-Roboshop-dev"
 }
-variable "vpc_id" {
-
-}
