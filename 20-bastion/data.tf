@@ -7,3 +7,7 @@ data "aws_ami" "ami_id" {
     values = ["RHEL-9-DevOps-Practice"]
   }
 }
+
+data "aws_ssm_parameter" "bastion_sg_id"  {
+  name = "/${var.project}/bastion_sg_id"
+}
