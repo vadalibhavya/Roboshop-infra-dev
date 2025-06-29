@@ -1,8 +1,8 @@
 variable "project" {
-  default = "Roboshop"
+  default = "roboshop"
 }
 variable "sg_description" {
-  default = "Roboshop"
+  default = "roboshop"
 }
 variable "sg_name" {
   default = "Frontend-Roboshop-dev"
