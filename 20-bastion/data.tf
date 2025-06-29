@@ -11,3 +11,10 @@ data "aws_ami" "ami_id" {
 data "aws_ssm_parameter" "bastion_sg_id"  {
   name = "/${var.project}/bastion_sg_id"
 }
+
+data "aws_subnets" "public" {
+  filter {
+    name   = "tag:Name"
+    values = ["${var.project}-dev-public-*"]
+  }
+}
