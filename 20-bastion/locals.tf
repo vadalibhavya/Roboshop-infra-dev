@@ -1,3 +1,3 @@
 locals {
-  ami_id = data.aws_ami.ami_id.id
+  ami_id = "ami-09c813fb71547fc4f"
 }
