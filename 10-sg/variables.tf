@@ -7,3 +7,10 @@ variable "sg_description" {
 variable "sg_name" {
   default = "Frontend-Roboshop-dev"
 }
+
+variable "bastion_sg" {
+  default = "bastion-security-group"
+}
+variable "bastion_sg_description" {
+  default = "bastion-security-group"
+}
